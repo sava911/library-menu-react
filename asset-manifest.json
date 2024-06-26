@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/library-menu-react/static/css/main.b0fba722.css",
+    "main.js": "/library-menu-react/static/js/main.51dee324.js",
+    "static/media/check2.svg": "/library-menu-react/static/media/check2.5bd03b3fc378713e1fb4.svg",
+    "index.html": "/library-menu-react/index.html",
+    "main.b0fba722.css.map": "/library-menu-react/static/css/main.b0fba722.css.map",
+    "main.51dee324.js.map": "/library-menu-react/static/js/main.51dee324.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0fba722.css",
+    "static/js/main.51dee324.js"
+  ]
+}
