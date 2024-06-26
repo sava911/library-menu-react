@@ -1,28 +1,23 @@
 import React from "react";
+import MenuItem from "./MenuItem";
+import Header from "./Header";
+import BannerSlider from "./BannerSlider";
+import Footer from "./Footer";
 
 function HomeMenu() {
   return (
-    <div className="menu-items">
-      <a href="!#" className="menu-item">
-        <b>New</b>
-        <p>меню</p>
-      </a>
-      <a href="category.html" className="menu-item">
-        <b>Основное</b>
-        <p>меню</p>
-      </a>
-      <a href="!#" className="menu-item">
-        <b>Посное</b>
-        <p>меню</p>
-      </a>
-      <a href="!#" className="menu-item">
-        <b>Барное</b>
-        <p>меню</p>
-      </a>
-      <a href="!#" className="menu-item">
-        <b>Винная</b>
-        <p>карта</p>
-      </a>
+    <div>
+      <Header />
+      <div className="container">
+        <BannerSlider />
+        <div className="menu-items">
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
